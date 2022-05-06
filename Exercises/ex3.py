@@ -1,7 +1,7 @@
 # displays the line in the parentheses
 print("I will now count my chickens:")
 # prints the word, following by printing the calculation answer
-print("Hens", 25 + 30 / 6)
+print("Hens",25 + 30 / 6)
 print("Roosters", 100 - 25 * 3 % 4)
 # prints the string in the parentheses
 print("Now I will count the eggs:")
