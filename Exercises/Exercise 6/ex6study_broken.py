@@ -9,7 +9,7 @@ y = f"Those who know {binary} and those who {do_not}." # A variable storing an f
 print(x) # Prints variable x
 print(y) # Prints variable y
 
-print(f"I said: {x}") # Prints f-string that contains a variable
+print(f"I said: '{x}'") # Prints f-string that contains a variable
 print(f"I also said: {y}") # Prints f-string that contails a variable 
 
 hilarious = True # A boolean variable. Boolean can only hold two values, true or false.
