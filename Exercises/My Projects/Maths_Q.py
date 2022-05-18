@@ -1,4 +1,6 @@
 #Maths Questionnaire Game with the help of Robin
+import os
+os.system("color")
 import random
 print ("Welcome to the maths questionnaire")
 username = input("Please enter your username:")
@@ -29,6 +31,6 @@ for _ in range (5):
 #count = question("9. What's 6x4?", "24", count) 
 #count = question("10. What's 1x0?", "0", count)
 if count >= 3:
-    print(f"Congratulations {username}! Your final score is", count)
+    print(f"\033[36mCongratulations\033[0m \033[5m\033[32m{username}\033[0m! Your final score is\033[44m", count,"\033[0m")
 else:
     print(f"Better luck next time {username} Your score is", count)
